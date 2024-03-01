@@ -14,6 +14,6 @@ public class GradeAvg {
         grade4 = input.nextInt();
         grade5 = input.nextInt();
         input.close();
-        System.out.println("Your average is: " + (grade1+grade2+grade3+grade4+grade5)/5);
+        System.out.println("Your average is: " + (grade1+grade2+grade3+grade4+grade5)/5.0);
     }
 }
